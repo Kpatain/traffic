@@ -1,0 +1,99 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin: 20px 0;
+}
+
+#puzzleContainer {
+    margin: 20px auto;
+    max-width: 80%;
+    border: 1px solid #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add this CSS to your existing styles */
+.output-container {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+
+
+/* Define CSS styles for each cell type */
+.empty-cell {
+    background-color: #ffffff; /* White background for empty cells */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.horizontal-barrier {
+    background-color: #ff9900; /* Orange background for horizontal barriers */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.vertical-barrier {
+    background-color: #ff6000; /* Red background for vertical barriers */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.stud {
+    background-color: #ff0000; /* Red background for studs */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.angled-barrier {
+    background-color: #0000ff; /* Blue background for angled barriers */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.square-car {
+    background-color: #00ff00; /* Green background for square cars */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.vertical-car {
+    background-color: #ff9900; /* Orange background for vertical cars */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.long-horizontal-car {
+    background-color: #660066; /* Purple background for long horizontal cars */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.vertical-long-car {
+    background-color: #ff66cc; /* Pink background for vertical long cars */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.horizontal-truck {
+    background-color: #0066cc; /* Light blue background for horizontal trucks */
+    border: 1px solid #cccccc; /* Gray border */
+}
+
+.vertical-truck {
+    background-color: #cc33cc; /* Light purple background for vertical trucks */
+    border: 1px solid #cccccc; /* Gray border */
+}

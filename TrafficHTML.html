@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Jam Puzzle</title>
+    <link rel="stylesheet" href="trafficCSS.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Traffic Jam Puzzle</h1>
+        <div class="controls">
+            <div class="control-group">
+                <label for="gridSizeX">Grid Size (X):</label>
+                <input type="range" id="gridSizeX" min="2" max="22" value="6">
+                <span id="gridSizeXLabel">6</span>
+            </div>
+            <div class="control-group">
+                <label for="gridSizeY">Grid Size (Y):</label>
+                <input type="range" id="gridSizeY" min="2" max="22" value="6">
+                <span id="gridSizeYLabel">6</span>
+            </div>
+            <div class="control-group">
+                <label for="difficultySlider">Difficulty:</label>
+                <input type="range" id="difficultySlider" min="0" max="100" value="50">
+                <span id="difficultyLabel">50</span>
+            </div>
+            <button id="generateButton">ReGenerate Puzzle</button>
+        </div>
+        <div id="puzzleContainer"></div>
+        <div class="json-output">
+            <label for="jsonResult">JSON Result:</label>
+            <textarea id="jsonResult" readonly></textarea>
+        </div>
+    </div>
+    <script src="trafficJS.js"></script>
+    <!--<textarea id="jsonOutput" readonly></textarea> <!-- Add this textarea element -->
+
+
+
+
+</body>
+</html>
